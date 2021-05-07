@@ -1,0 +1,7 @@
+<view>
+  <picker class="picker" disabled="{{disabled}}" mode="multiSelector" bindchange="pickerChange"
+    bindcolumnchange="pickerColumnChange" bindcancel="pickerCancel" value="{{pickerIndex}}" range="{{pickerArray}}"
+    range-key="{{'name'}}">
+    <view class="picker_class">{{!!date?date:placeholder}}</view>
+  </picker>
+</view>
